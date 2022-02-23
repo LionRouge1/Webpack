@@ -7,6 +7,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
      index: './src/index.js',
      print: './src/print.js',
    },
+   devtool: 'inline-source-map',
+
+  devServer: {
+
+    static: './dist',
+
+  },
 
    module: {
 
